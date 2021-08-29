@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.background {
+    background: radial-gradient(circle, rgba(78,100,212,1) 0%, rgba(31,38,73,1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    display: flex;
+    height:100vh;
+    flex-direction: column;
+}
+.header {
+    color: aliceblue;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 0;
+    height: 10vh;
+}
+
+.mainsection {
+    height: 90vh;
+    order: 1;
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.gameboard {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    opacity: .8;
+    width: 800px;
+    height: 800px;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+
+}
+
