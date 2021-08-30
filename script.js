@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", () => {
             if (memoryCardsChosen.length === 2) {
                 //the following if-else-statement catches the error of winning though clicking twice on the same image
                 if (memoryCardsChosenID[0] != memoryCardsChosenID[1]) {
-                    setTimeout(checkForMatch, 100);
+                    setTimeout(checkForMatch, 500);
                 } else {
                     //catching the error of clicking twice on
                     memoryCardsChosen.pop();
